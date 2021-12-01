@@ -43,7 +43,7 @@ console.log("O novo valor de b é", b)
 */
 
 // Desafio
-
+/*
 let numero1 = prompt ("Digite um numero:")
 let numero2 = prompt ("Digite o segundo numero: ")
 
@@ -52,5 +52,4 @@ let numeroEmNumber2 = Number(numero2)
 
 console.log("O Primeiro numero somado ao segundo numero resulta em: ", numeroEmNumber + numeroEmNumber2);
 console.log("O Primeiro numero multiplicado pelo segundo número resulta em: ", numeroEmNumber * numeroEmNumber2);
-
-
+*/
