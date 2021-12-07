@@ -143,9 +143,3 @@ const numero2 = Number(prompt("Digite o segundo Numero: "))
 
  console.log(resultado)
 */
-
-
-
-
-
-
