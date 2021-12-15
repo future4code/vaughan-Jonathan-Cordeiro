@@ -1,0 +1,34 @@
+.background-titulo{
+    color: gold;
+    background-color: black;
+    display: inline-block;
+}
+
+.paragrafos-coloridos{
+    color: gold;
+    background-color: black;
+    display: inline-block;
+}
+
+p{
+    color: gold;
+    background: black;
+    display: inline-block;
+}
+.mudanca-de-pagina{
+    color: blue;
+    display: inline-block;
+    background-color: black;
+}
+
+.background-tela-principal{
+    background-color: rgb(224, 207, 198);
+}
+.coloracao-texto{
+    
+    color: rgb(10, 1, 14);
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 1px;
+}

@@ -5,42 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adicionar Produto</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="background-tela-principal">
     <div>
         <p>Mercearia da Labenu</p>
     </div>
     
     <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
+        <a href="index.html" class="mudanca-de-pagina"><strong>Página Inicial</strong></a>
+        <a href="ctrl-estoque.html" class="mudanca-de-pagina"><strong>Controle de Estoque</a>
+        <a href="add-produto.html" class="mudanca-de-pagina"><strong>Adicionar Produto</a>
+        <a href="funcionarios.html" class="mudanca-de-pagina"><strong>Funcionários</a>
+        <a href="pagina-de-venda.html" class="mudanca-de-pagina"><strong>Página de Venda</a>
     </div>
 
     
-    <h2>Adicionar Produto</h2>
+    <h2 class="background-titulo">Adicionar Produto</h2>
     <form action="">
         <div>
             <label for="link-foto">Link para foto: </label>
             <input type="url" id="link-foto" name="link-foto">
         </div>
-        
+        <br>
         <div>
             <label for="descricao">Descrição do produto: </label>
             <input type="text" id="descricao" name="descricao">
         </div>
-        
+        <br>
         <div>
             <label for="preco">Preço (em R$): </label>
             <input type="number" id="preco" name="preco">
         </div>
-        
+        <br>
         <div>
             <label for="quantidade disponivel">Quantidade disponível: </label>
             <input type="number" id="quantidade disponivel" name="quantidade disponivel">
         </div>
-
+        <br>
         <div class="form-add">
             <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
             <button type="submit">Adicionar</button>
