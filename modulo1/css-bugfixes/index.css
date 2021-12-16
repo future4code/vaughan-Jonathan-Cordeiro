@@ -58,7 +58,11 @@ div img {
 .icone {
     height: 15px;
 }
-
+.alinhar-tela-comprar{
+    height: 500px;
+    text-align: center;
+    margin-left: 425px;
+}
 
 /** 
   *
