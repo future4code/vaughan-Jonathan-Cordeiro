@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body class="background-tela-principal">
+    <div class>
+        <p>Mercearia da Labenu</p>
+    </div>
     <h1 class="background-titulo">Página de Venda</h1>
     
     <div>
@@ -15,25 +18,57 @@
         <a href="ctrl-estoque.html" class="mudanca-de-pagina"><strong>Controle de Estoque</a>
         <a href="add-produto.html" class="mudanca-de-pagina"><strong>Adicionar Produto</a>
         <a href="funcionarios.html" class="mudanca-de-pagina"><strong>Funcionários</a>
-        <a href="pagina-de-venda.html" class="mudanca-de-pagina"><strong>Página de venda</a>
+        <a href="pagina-de-venda.html" class="mudanca-de-pagina"><strong>Página de Venda</a>
+        <a href="historico-vendas.html" class="mudanca-de-pagina"><strong>Histórico de Venda</a>  
     </div>
     <br>
-    <p class="paragrafos-coloridos"> Itens</p>
-    <div>
+    <p class="paragrafo-de-itens"> Itens</p>
+    <div class>
+        
         <form>
-            <input type="checkbox" id="comida1" name="comida1" value="Banana">
-            <label for="comida1"> Banana</label><br>
-            <input type="checkbox" id="comida2" name="comida2" value="Maca">
-            <label for="comida2"> Paçoca</label><br>
-            <input type="checkbox" id="comida3" name="comida3" value="Limão">
-            <label for="comida3"> Limão</label>
+            <table>
+                <td class="paragrafo-de-itens">
+                    <input type="checkbox" id="comida1" name="comida1" value="Banana">
+                    <label for="comida1"> Banana</label>
+                    <input class="input-table"type="number" id="Quantidade" name="Quantidade" value="Quantidade">
+                </td>
+                <td class="paragrafo-de-itens">
+                    <input type="checkbox" id="comida2" name="comida2" value="Maca">
+                    <label for="comida2"> Paçoca</label>
+                    <input class="input-table"type="number" id="Quantidade2" name="Quantidade2" value="Quantidade2">
+                </td>
+                <td class="paragrafo-de-itens">
+                    <input type="checkbox" id="comida3" name="comida3" value="Limão">
+                    <label for="comida3"> Limão</label>
+                    <input class="input-table"type="number" id="Quantidade3" name="Quantidade3" value="Quantidade3">
+                </td>
+                <td class="paragrafo-de-itens">
+                    <input type="checkbox" id="comida4" name="comida4" value="Batata">
+                    <label for="comida4"> Batata</label>
+                    <input class="input-table"type="number" id="Quantidade4" name="Quantidade4" value="Quantidade4">
+                </td>
+                <td class="paragrafo-de-itens">
+                    <input type="checkbox" id="comida3" name="comida5" value="Água">
+                    <label for="comida5"> Água</label>
+                    <input class="input-table"type="number" id="Quantidade5" name="Quantidade5" value="Quantidade5">
+                </td>
+            </table>
             <br>
-            <input type="checkbox" id="comida4" name="comida4" value="Batata">
-            <label for="comida4"> Batata</label>
+            <p>Cartão ou Dinheiro?</p>
+            <Br>
+            <div class="paragrafo-de-itens">
+                <input type="checkbox" id="cartão" name="cartão1" value="Cartão">
+                <label for="cartão">Cartão</label>
+            </div>
+            <div class="paragrafo-de-itens">
+            </form class="paragrafo-de-itens">
+            <input type="checkbox" id="Dinheiro" name="Dinheiro" value="Dinheiro">
+             <label for="Dinheiro">Dinheiro</label> 
+            </div>
             <br>
-            <input type="checkbox" id="comida3" name="comida5" value="Água">
-            <label for="comida5"> Água</label>
-          </form>
+            <div class="form-add">
+            <button type="submit">Pagar</button>
+
     </div>
     <br>
 
