@@ -34,7 +34,7 @@ div>p:first-child {
 }
 
 div img {
-    background: black;
+    background-image: none;
 }
 
 .botao-amarelo {
@@ -51,7 +51,7 @@ div img {
 }
 
 .container {
-    height: 500px;
+    height: 300px;
     text-align: center;
 }
 
@@ -73,12 +73,11 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
-    padding: 65px;
+    padding: 100px;
 }
 
 #container-de-descricao>ol {
-    padding: 50px 0px;
-    list-style: none
+    padding: 15px 500px;
 }
 
 #container-para-comprar {
@@ -87,7 +86,7 @@ div img {
 
 #container-para-comprar>p {
     color: #c44f00;
-    padding: 100px 0;
+    padding: 300px 0;
     font-size: 60px;
 }
 
@@ -109,7 +108,9 @@ div:last-child {
 }
 
 table {
-    width: 60%;
+    width: 50%;
+    margin-left: 445px;
+    background-image: none;
 }
 
 td button {
@@ -134,8 +135,18 @@ td button {
     border-radius: 50px;
     font-size:100px;
     color: black;
+    margin-left: 445px;
 }
 
 #back-button:hover {
     background-color: #635a3d
+}
+#mid-button{
+    margin-left: 750px;
+    width: 50px;
+    height: 300px;
+}
+
+.background-none{
+    background-image: none;
 }
