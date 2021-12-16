@@ -26,7 +26,7 @@ button:focus {
 }
 
 img {
-    width: 100px;
+    width: 35px;
 }
 
 div>p:first-child {
@@ -142,9 +142,9 @@ td button {
     background-color: #635a3d
 }
 #mid-button{
-    margin-left: 750px;
-    width: 50px;
-    height: 300px;
+    margin-left: 730px;
+    width: 200px;
+    height: 100px;
 }
 
 .background-none{
