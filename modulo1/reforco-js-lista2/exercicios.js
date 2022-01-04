@@ -62,6 +62,13 @@ function retornaNPrimeirosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
+    if(ladoA=== ladoB && ladoB===ladoC && ladoC===ladoA){
+        return "Equilátero"
+    }else if(ladoA!==ladoB&&ladoB!==ladoC&&ladoC!==ladoA){
+        return "Escaleno"
+    }else if(ladoA!==ladoB||ladoB!==ladoC||ladoC!==ladoA)
+        return "Isósceles"
+return classificaTriangulo()
 
 }
 
@@ -77,6 +84,7 @@ function retornaChamadaDeFilme(filme) {
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
+    
    
 }
 
