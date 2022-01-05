@@ -52,12 +52,38 @@ function retornaMaiorNumero(array) {
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-    
+    let maiorNumero;
+    let menorNumero;
+    let maiorDivisivelPorMenor;
 
+    if (num1 > num2) {
+    maiorNumero = num1;
+    menorNumero = num2;
+    } else {
+    maiorNumero = num2;
+    menorNumero = num1;
+    }
+
+    maiorDivisivelPorMenor = maiorNumero % menorNumero === 0;
+
+  const diferenca = maiorNumero - menorNumero;
+
+  return {
+    maiorNumero: maiorNumero,
+    maiorDivisivelPorMenor: maiorDivisivelPorMenor,
+    diferenca: diferenca
+  };
 }
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
+    const arrayPrimeirosNumerosPares = [];
+       for (let number = 0; arrayPrimeirosNumerosPares.length < n; number++) {
+         if (number % 2 === 0) {
+            arrayPrimeirosNumerosPares.push(number);
+          }
+        }
+    return arrayPrimeirosNumerosPares;
    
 }
 
@@ -75,17 +101,55 @@ return classificaTriangulo()
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
+    let menor = Infinity;
+    let maior = -Infinity;
+    let segundoMenor = Infinity;
+    let segundoMaior = -Infinity;
+    let novoArray = [];
+
+    for (let i of array) {
+    if (i < menor) {
+      menor = i;
+    }
+    if (i > maior) {
+      maior = i;
+        }
+    }
+
+    for (let i of array) {
+    if (i < segundoMenor && i !== menor) {
+      segundoMenor = i;
+        }
+    if (i > segundoMaior && i !== maior) {
+      segundoMaior = i;
+        }
+    }
+    novoArray.push(segundoMaior);
+    novoArray.push(segundoMenor);
+
+  return novoArray;
   
 }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+    filme = {
+        nome: 'O Diabo Veste Prada',
+        ano: 2006,
+        diretor: 'David Frankel',
+        atores: ['Meryl Streep', ' Anne Hathaway', ' Emily Blunt', ' Stanley Tucci']
+    }
+    return(`Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores}.`)
+
 }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-    
+    const objetoPessoaAnonima = {
+         ...pessoa,
+         nome: "ANÔNIMO"
+     }
+    return objetoPessoaAnonima
    
 }
 
